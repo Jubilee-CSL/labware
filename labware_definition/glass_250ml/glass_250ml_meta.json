@@ -1,0 +1,10 @@
+{
+  "loadName": "glass_250ml",
+  "displayName": "glass of water 250 mL",
+  "displayCategory": "reservoir",
+  "brand": "duckweed",
+  "wellCount": 1,
+  "maxVolume": 250000.0,
+  "xDimension": 85.0,
+  "yDimension": 85.0
+}
