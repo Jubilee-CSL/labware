@@ -19,13 +19,10 @@ import logging
 import os
 import re
 import subprocess
-import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
-# Import SCAD generator from the sibling script
-sys.path.insert(0, str(Path(__file__).parent))
-from labware_to_stl import labware_to_scad   # noqa: E402
+from jubilee_labware.labware_to_stl import labware_to_scad
 
 logging.basicConfig(
     level=logging.INFO,

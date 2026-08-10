@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from Labware import (  # noqa: F401
+from .Labware import (  # noqa: F401
     Column,
     Labware,
     Location,
@@ -9,7 +9,7 @@ from Labware import (  # noqa: F401
     Well,
     WellSet,
 )
-from labware_to_stl import labware_to_scad  # noqa: F401
+from .labware_to_stl import labware_to_scad  # noqa: F401
 
 # Absolute path to the bundled labware JSON definitions.
 # Deck._plugin_labware_dirs() (and direct callers) should use this
